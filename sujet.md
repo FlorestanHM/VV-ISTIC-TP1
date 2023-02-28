@@ -35,9 +35,11 @@ Le bug a été corrigé et des tests ont été ajouté pour éviter que le probl
 
 
 3.  
-L'article décrit les expériences de Netflix en matière d'ingénierie du chaos, qui consistaient à introduire des défaillances contrôlées dans leurs systèmes afin de tester leur résilience. Ils ont identifié des indicateurs clés de performance pour chaque système et observé des variables telles que les temps de réponse et les taux d'erreur. Les résultats ont montré une amélioration de la résilience des systèmes. 
+L'article décrit les expériences de Netflix en matière d'ingénierie du chaos, qui consistaient à introduire des défaillances contrôlées dans leurs systèmes afin de tester leur résilience. Ils ont identifié des indicateurs clés de performance pour chaque système et observé des variables telles que les temps de réponse et les taux d'erreur.
 
-D'autres organisations pourraient réaliser des expériences similaires en identifiant les composants critiques, en définissant des indicateurs clés de performance et en observant les variables du système pour améliorer la résilience et réduire les temps d'arrêt.
+Les principaux résultats des expériences ont montré qu'en introduisant des défaillances contrôlées, Netflix a pu identifier et corriger les faiblesses de ses systèmes avant qu'elles ne provoquent des temps d'arrêt réels ou un impact sur les clients. Elle a également été en mesure d'améliorer la résilience de ses systèmes en traitant de manière proactive les scénarios de défaillance potentiels.
+
+Ces expériences pourraient être menées dans d'autres organisations en identifiant les composants critiques de leurs systèmes, en déterminant les indicateurs clés de performance et en introduisant des défaillances contrôlées pour voir comment les systèmes réagissent. Les variables du système à observer pendant les expériences pourraient inclure l'utilisation du CPU et de la mémoire, le trafic réseau, les taux d'erreur et les temps de réponse. En menant ces expériences, les organisations peuvent identifier les faiblesses de leurs systèmes et améliorer leur résilience globale, ce qui se traduit par une meilleure satisfaction des clients et une réduction des temps d'arrêt.
 
 5.
 Cet article présente une spécification mécanisée de WebAssembly qui fournit une description plus précise et rigoureuse du langage. Elle a amélioré la spécification formelle originale en découvrant des erreurs et des incohérences et a conduit au développement d'autres artefacts vérifiés. La spécification a été vérifiée à l'aide de l'assistant de preuve Coq, mais des tests sont encore nécessaires pour garantir une mise en œuvre correcte. La spécification mécanisée peut contribuer à réduire les erreurs et à améliorer la fiabilité et la sécurité des logiciels.

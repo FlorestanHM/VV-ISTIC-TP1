@@ -23,6 +23,17 @@ En testant il aurait pu empêcher cette erreur, en effet  c’est une erreur ass
 
 
 2.
+Nous avons choisis de prendre l’issue COLLECTIONS-701 : https://issues.apache.org/jira/projects/COLLECTIONS/issues/COLLECTIONS-701?filter=doneissues
+
+Ce bug est locale puisqu’il survient sur un cas d’utilisation particulier d’une méthode qui n’avait sûrement pas été prévu ni testé par le développeur.
+
+Le bug survient lorsque une liste de type SetUniqueList tente de s’ajouter à elle même. (ex : myList.add( myList )). Dans ce scénario, la méthode entre dans une boucle infinie qui cause l’exception StackOverFlowError.
+
+Pour éviter ce bug, la méthode SetUniqueList.add() a été mise à jour dans les versions suivant la découverte du bug. Maintenant la méthode lève une exception lorsqu’elle reçoit elle-même en tant que paramètre. L’exception est levée avec le message : « Cannot add element to itself » pour que les développeurs puissent identifier le problème.
+
+Le bug a été corrigé et des tests ont été ajouté pour éviter que le problème revienne. Voici le lien vers le commit en question : https://github.com/apache/commons-collections/pull/57/commits/be0cea3c907bb4ab1083384377521942d17e15bd
+
+
 3.  
 L'article décrit les expériences de Netflix en matière d'ingénierie du chaos, qui consistaient à introduire des défaillances contrôlées dans leurs systèmes afin de tester leur résilience. Ils ont identifié des indicateurs clés de performance pour chaque système et observé des variables telles que les temps de réponse et les taux d'erreur. Les résultats ont montré une amélioration de la résilience des systèmes. D'autres organisations pourraient réaliser des expériences similaires en identifiant les composants critiques, en définissant des indicateurs clés de performance et en observant les variables du système pour améliorer la résilience et réduire les temps d'arrêt.
 

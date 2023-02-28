@@ -35,7 +35,9 @@ Le bug a été corrigé et des tests ont été ajouté pour éviter que le probl
 
 
 3.  
-L'article décrit les expériences de Netflix en matière d'ingénierie du chaos, qui consistaient à introduire des défaillances contrôlées dans leurs systèmes afin de tester leur résilience. Ils ont identifié des indicateurs clés de performance pour chaque système et observé des variables telles que les temps de réponse et les taux d'erreur. Les résultats ont montré une amélioration de la résilience des systèmes. D'autres organisations pourraient réaliser des expériences similaires en identifiant les composants critiques, en définissant des indicateurs clés de performance et en observant les variables du système pour améliorer la résilience et réduire les temps d'arrêt.
+L'article décrit les expériences de Netflix en matière d'ingénierie du chaos, qui consistaient à introduire des défaillances contrôlées dans leurs systèmes afin de tester leur résilience. Ils ont identifié des indicateurs clés de performance pour chaque système et observé des variables telles que les temps de réponse et les taux d'erreur. Les résultats ont montré une amélioration de la résilience des systèmes. 
+
+D'autres organisations pourraient réaliser des expériences similaires en identifiant les composants critiques, en définissant des indicateurs clés de performance et en observant les variables du système pour améliorer la résilience et réduire les temps d'arrêt.
 
 5.
 Cet article présente une spécification mécanisée de WebAssembly qui fournit une description plus précise et rigoureuse du langage. Elle a amélioré la spécification formelle originale en découvrant des erreurs et des incohérences et a conduit au développement d'autres artefacts vérifiés. La spécification a été vérifiée à l'aide de l'assistant de preuve Coq, mais des tests sont encore nécessaires pour garantir une mise en œuvre correcte. La spécification mécanisée peut contribuer à réduire les erreurs et à améliorer la fiabilité et la sécurité des logiciels.

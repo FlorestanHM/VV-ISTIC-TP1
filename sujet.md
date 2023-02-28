@@ -41,6 +41,18 @@ Les principaux résultats des expériences ont montré qu'en introduisant des d�
 
 Ces expériences pourraient être menées dans d'autres organisations en identifiant les composants critiques de leurs systèmes, en déterminant les indicateurs clés de performance et en introduisant des défaillances contrôlées pour voir comment les systèmes réagissent. Les variables du système à observer pendant les expériences pourraient inclure l'utilisation du CPU et de la mémoire, le trafic réseau, les taux d'erreur et les temps de réponse. En menant ces expériences, les organisations peuvent identifier les faiblesses de leurs systèmes et améliorer leur résilience globale, ce qui se traduit par une meilleure satisfaction des clients et une réduction des temps d'arrêt.
 
+4.
+Voici les principaux avantages d’avoir une spécification formelle pour WebAssembly : 
+
+- Ça aide à garantir que les différentes implémentations de WebAssembly sont compatibles et interopérables entre elles
+
+- WebAssembly est conçu pour être indépendant de la plate-forme et pour fonctionner sur différents appareils et architectures. Une spécification formelle peut donc aider à garantir que le code écrit en WebAssembly est portable et peut s'exécuter sur n'importe quel appareil prenant en charge WebAssembly
+
+- Ça permet de faciliter la vérification des tests des implémentations.
+
+Faire des tests est une partie importante du processus de développement, peu importe s’il y a une spécification formelle ou non. La spécification ne permet pas de garantir la non-existence de bug ni l’absence de vulnérabilité de sécurité.
+En plus, les tests peuvent également aider à identifier les problèmes ou les incohérences dans la spécification formelle elle-même, ce qui peut être utilisé pour améliorer la spécification et la rendre plus précise et complète.
+
 5.
 Cet article présente une spécification mécanisée de WebAssembly qui fournit une description plus précise et rigoureuse du langage. Elle a amélioré la spécification formelle originale en découvrant des erreurs et des incohérences. L'auteur a dérivé plusieurs autres artefacts, dont un interprète vérifié pour WebAssembly, un validateur de traduction vérifié et un vérificateur de type vérifié.
 

@@ -58,4 +58,6 @@ Cet article présente une spécification mécanisée de WebAssembly qui fournit 
 
 La spécification a été vérifiée à l'aide de l'assistant de preuve Coq.
 
-Bien que la spécification mécanisée fournisse une description plus précise et plus rigoureuse du langage, elle n'élimine pas le besoin de tests. Les tests sont toujours nécessaires pour s'assurer que les implémentations de WebAssembly sont correctes et conformes à la spécification. Cependant, la spécification mécanisée peut contribuer à réduire le nombre de bogues et d'erreurs dans les implémentations de WebAssembly, ce qui peut conduire à des logiciels plus fiables et plus sûrs.
+Bien que la spécification mécanisée fournisse une description plus précise et plus rigoureuse du langage, elle n'élimine pas le besoin de tests. En effet, prouver l'algorithme n'empêche pas la création de bug dans l'implémentations.
+
+Les tests sont toujours nécessaires pour s'assurer que les implémentations de WebAssembly sont correctes et conformes à la spécification. Cependant, la spécification mécanisée peut contribuer à réduire le nombre de bogues et d'erreurs dans les algorithmes de WebAssembly, ce qui peut conduire à des logiciels plus fiables et plus sûrs.

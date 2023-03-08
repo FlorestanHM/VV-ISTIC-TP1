@@ -41,6 +41,8 @@ Les principaux résultats des expériences ont montré qu'en introduisant des d�
 
 Ces expériences pourraient être menées dans d'autres organisations en identifiant les composants critiques de leurs systèmes, en déterminant les indicateurs clés de performance et en introduisant des défaillances contrôlées pour voir comment les systèmes réagissent. Les variables du système à observer pendant les expériences pourraient inclure l'utilisation du CPU et de la mémoire, le trafic réseau, les taux d'erreur et les temps de réponse. En menant ces expériences, les organisations peuvent identifier les faiblesses de leurs systèmes et améliorer leur résilience globale, ce qui se traduit par une meilleure satisfaction des clients et une réduction des temps d'arrêt.
 
+On pourrait utiliser le Chaos testing sur une application que l'on veut disponible pour les utilisateurs 24/7.
+
 4.
 Voici les principaux avantages d’avoir une spécification formelle pour WebAssembly : 
 

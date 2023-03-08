@@ -35,7 +35,7 @@ Le bug a été corrigé et des tests ont été ajouté pour éviter que le probl
 
 
 3.  
-L'article décrit les expériences de Netflix en matière d'ingénierie du chaos, qui consistaient à introduire des défaillances contrôlées dans leurs systèmes afin de tester leur résilience. Ils ont identifié des indicateurs clés de performance pour chaque système et observé des variables telles que les temps de réponse et les taux d'erreur.
+L'article décrit les expériences de Netflix en matière d'ingénierie du chaos, qui consistaient à introduire des défaillances contrôlées dans leurs systèmes afin de tester leur résilience. Ils ont identifié des indicateurs clés de performance pour chaque système et observé des variables telles que les temps de réponse et les taux d'erreur. L'indicateur clé principal de Netflix est combien d'utilisateur commence a regardé une vidéo chaque seconde. Cette mètrique varie lentement et de façon prévisible au cours d'une journée. 
 
 Les principaux résultats des expériences ont montré qu'en introduisant des défaillances contrôlées, Netflix a pu identifier et corriger les faiblesses de ses systèmes avant qu'elles ne provoquent des temps d'arrêt réels ou un impact sur les clients. Elle a également été en mesure d'améliorer la résilience de ses systèmes en traitant de manière proactive les scénarios de défaillance potentiels.
 

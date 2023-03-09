@@ -24,7 +24,7 @@ Les conséquences de ce bug sont donc importantes pour les clients et pour Micro
 
 Avec des tests plus exhaustifs de dates, Microsoft aurait pu empêcher cette erreur, en effet c’est une erreur assez commune et facilement détectable si tester.
 
-![Lien d'un article](https://www.pdq.com/blog/microsoft-exchange-2022-bug-halts-email-delivery/)
+[Lien d'un article](https://www.pdq.com/blog/microsoft-exchange-2022-bug-halts-email-delivery/)
 
 2.
 Nous avons choisis de prendre l’issue COLLECTIONS-701 : https://issues.apache.org/jira/projects/COLLECTIONS/issues/COLLECTIONS-701?filter=doneissues
